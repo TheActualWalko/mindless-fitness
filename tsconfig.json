@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "es5",
+    "lib": ["es5", "es6", "es2017", "dom"],
+    "sourceMap": true,
+    "jsx": "react",
+    "module": "es6",
+    "moduleResolution": "node",
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./htdocs/js/"
+  },
+  "exclude": [
+    "node_modules",
+    "dbdiff"
+  ]
+}

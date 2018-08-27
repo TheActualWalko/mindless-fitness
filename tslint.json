@@ -1,0 +1,38 @@
+{
+  "extends": "./node_modules/tslint-config-airbnb/tslint",
+  "rules": {
+    "arrow-return-shorthand": false,
+    "arrow-parens": true,
+    "ter-arrow-parens": false,
+    "import-name": false,
+    "object-shorthand-properties-first": false,
+    "variable-name": false,
+    "function-name": { "severity": "warning" },
+    "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
+    "radix": { "severity": "warning" },
+    "no-unused-expression": true,
+    "max-line-length": false,
+    "prefer-const": [true, { "destructuring": "all" }],
+    "no-increment-decrement": false,
+    "triple-equals": true,
+    "no-redundant-jsdoc": true,
+    "no-var-requires": { "severity": "warning" },
+    "no-bitwise": { "severity": "warning" },
+    "no-conditional-assignment": { "severity": "warning" },
+    "no-misused-new": { "severity": "warning" },
+    "align": false,
+    "typedef": [
+      true,
+      [
+        "call-signature",
+        "arrow-call-signature",
+        "parameter",
+        "arrow-parameter",
+        "property-declaration"
+      ]
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["./node_modules/**/*.ts", "*.css", "*.svg"]
+  }
+}
